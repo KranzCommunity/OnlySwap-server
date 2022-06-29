@@ -1,0 +1,27 @@
+{
+  "name": "kranz-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@1inch/limit-order-protocol": "^1.4.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jwt-simple": "^0.5.6",
+    "limit-order-protocol": "^1.1.2",
+    "md5": "^2.3.0",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "pug": "2.0.0-beta11",
+    "tslib": "^2.3.1",
+    "web3": "^1.6.1"
+  }
+}
